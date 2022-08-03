@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(84, 192, 134);
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px !important;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+/* Top Banner */
+
+.top-banner{
+    background-image: url(/img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.banner{
+    padding: 5%;
+}
+
+.name-hg{
+    color: rgb(10, 219, 115);
+}
+
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half img{
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.bio{
+    margin-bottom: 5%;
+    color: rgba(204, 198, 198, 0.829);
+}
+
+.hire{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(99, 201, 147), rgb(8, 83, 46));
+    padding: 2%;
+    color: white;
+    font-weight: 400;
+    
+}
+
+/* Dream */
+
+.dream{
+    background-image: url(/img/dream.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.deamhigh{
+    padding: 5%;
+}
+
+/* Experience*/
+
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    height: 80%;
+    background-color: black;
+}
+
+.ami{
+    color: rgb(163, 163, 163);
+}
+
+.exp{
+    background-image: url(/img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.exp>h2{
+    margin-left: 10px;
+}
+
+#fill{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(99, 201, 147), rgb(8, 83, 46));
+    border-image-slice: 1;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(0, 57, 241), rgb(13, 14, 102));
+    border-image-slice: 1;
+}
+
+/* Footer */
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+}
+
+footer p a {
+    text-decoration: none;
+}
